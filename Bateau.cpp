@@ -1,7 +1,7 @@
 #include "Bateau.h"
 
 Bateau::Bateau(int p,  string name) : Vehicule(p,0,name){
-	cout << "Je suis une bateau." << endl;
+	cout << "C'est un bateau." << endl;
 }
 
 void Bateau::avancer(){

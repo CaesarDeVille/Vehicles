@@ -1,7 +1,7 @@
 #include "Avion.h"
 
 Avion::Avion(int p, int nbr, string name) : Vehicule(p,nbr,name){
-	cout << "Je suis un avion." << endl;
+	cout << "C'est un avion." << endl;
 }
 
 void Avion::avancer(){

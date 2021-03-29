@@ -8,25 +8,26 @@
 int main() {
   /*Vehicule v(10,3, "Kangoo");
   v.showInfos();  PASSAGE ABSTRACT*/
-	Voiture voi1(45,"Clio");
+	Voiture voi1(40,"Cadillac");
 	voi1.showInfos();
 	voi1.avancer();
 	cout << endl;
+
+	Avion a1(200,2, "Jet");
+	a1.showInfos();
+	a1.avancer();
+	cout << endl << endl;
 
 	Bateau b1(16, "Hors-bord");
 	b1.showInfos();
 	b1.avancer();
 	cout << endl;
 
-	Avion a1(100,2, "Boeing");
-	a1.showInfos();
-	a1.avancer();
-	cout << endl << endl;
-
 	vector<Vehicule*> garage;
-	Voiture voi2(35,"Astra");
-	Bateau b2(21, "Yacht");
-	Avion a2(451,2, "Airbus");
+	Voiture voi2(45,"Mustang");
+  Avion a2(350,2, "Hydra");
+	Bateau b2(25, "Voilier");
+
 
 	garage.push_back(&voi2);
 	garage.push_back(&b2);

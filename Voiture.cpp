@@ -1,7 +1,7 @@
 #include "Voiture.h"
 
 Voiture::Voiture(int p,  string name) : Vehicule(p,4,name){
-	cout << "Je suis une voiture." << endl;
+	cout << "C'est une voiture." << endl;
 }
 
 void Voiture::avancer(){
